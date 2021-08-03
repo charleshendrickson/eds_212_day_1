@@ -1,0 +1,46 @@
+---
+title: "eds_212_day_1"
+author: "Charles Hendrickson"
+date: "8/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+# Small header 
+
+## Medium header 
+
+### Large header 
+
+```{r}
+W <- function(a, L, b) {a * L ^ b}
+ 
+# Milkfish
+W(L = 60,a = 0.0905, b = 2.52)
+
+# Giant Trevally 
+W(L = 60,a = 0.0353, b = 3.05)
+
+# Great barracuda
+W(L = 60,a = 0.0181, b = 3.27)
+  
+```
+
+
+```{r}
+fish_length = seq(from = 0, to = 200, by = 1)
+
+barracuda_weight
+```
+
+
+
+
+
+
+
