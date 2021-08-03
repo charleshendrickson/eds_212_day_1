@@ -35,7 +35,6 @@ W(L = 60,a = 0.0181, b = 3.27)
 ```{r}
 fish_length = seq(from = 0, to = 200, by = 1)
 
-
 ```
 
 
